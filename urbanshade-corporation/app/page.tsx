@@ -1,7 +1,10 @@
 import Image from "next/image";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
-    <h1>Welcome to Urbanshade</h1>
+    <div className="h-screen bg-[url(/NewSubmarineBay2.png)]">
+      <Navbar></Navbar>
+    </div>
   );
 }
